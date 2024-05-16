@@ -1,4 +1,4 @@
-# SQB CL CC 
+# SQB NCL NDS CC 
 
 pip install -r requirements.txt
 
