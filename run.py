@@ -7,7 +7,8 @@ from markdownify import markdownify as md
 
 uri = st.secrets["mongo"]['uri']
 
-
+#features
+#before the session starts, fetch participants ID and put the participant in bucket.
 
 if "chat_pilli" not in st.session_state:
     st.session_state['chat_pilli'] = False
@@ -16,7 +17,7 @@ if "messages_counter" not in st.session_state:
 if "utterances" not in st.session_state:
     st.session_state['utterances'] = ""
 if "random_codes" not in st.session_state:
-    st.session_state['random_codes'] = ""
+    st.session_state['random_codes'] =""
 if "participant_id" not in st.session_state:
     st.session_state['participant_id'] = ""
 
@@ -28,12 +29,18 @@ st.title("Emma the Career Counseling Chatbot")
 def to_raw(string):
     return fr"{string}"
 
-if st.button("Start"):
+#fetch the database and assign a condition to the user
+
+def conditionAssignment():
+     print("")
+
+def submit():
+    prolific_id = st.session_state.textin
+    st.session_state.participant_id = str(prolific_id)
 
     st.session_state['utterances'] = ""
     f = open("utterances.txt", "r")
     st.session_state.utterances = f.read().split("\n")
-
 
     st.session_state['random_codes'] = ""
     f = open("random_codes.txt", "r")
@@ -41,6 +48,10 @@ if st.button("Start"):
 
     st.session_state.chat_pilli = True
     st.session_state.messages_counter = 0
+
+st.session_state.textin = st.text_input('Enter Prolific ID')
+st.button('Submit', on_click=submit)
+
 
 if st.sidebar.button("Finish"):
     st.session_state.messages = []  # Clear the chat history
