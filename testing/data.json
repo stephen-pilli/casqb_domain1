@@ -1,0 +1,311 @@
+{
+    "prolific_pid": "7SHEXDDX53MRXTB8U5XK23GO",
+    "study_id": "",
+    "session_id": "",
+    "consent": true,
+    "expcode": "1_BA$NEUT&IP$NEUT&CJ$NEUT",
+    "chat1": [
+        {
+            "role": "user",
+            "content": "hi",
+            "timestamp": "2024-05-23 11:46:36"
+        },
+        {
+            "role": "assistant",
+            "content": "Hello. I am Emma, the career counseling chatbot. I am here to help you choose the right career path. As part of this process, I will ask you a few questions to understand your personality and strengths. In addition, you will be presented with a few scenario-based questions. The whole process will help in recommending the right career path. Shall we start?",
+            "timestamp": "2024-05-23 11:46:36"
+        },
+        {
+            "role": "user",
+            "content": "yes",
+            "timestamp": "2024-05-23 11:46:37"
+        },
+        {
+            "role": "assistant",
+            "content": "How do you handle stress or pressure? ",
+            "timestamp": "2024-05-23 11:46:37"
+        },
+        {
+            "role": "user",
+            "content": "dkise",
+            "timestamp": "2024-05-23 11:46:39"
+        },
+        {
+            "role": "assistant",
+            "content": "What do you consider to be your greatest strengths? ",
+            "timestamp": "2024-05-23 11:46:39"
+        },
+        {
+            "role": "user",
+            "content": "skdfjilsje",
+            "timestamp": "2024-05-23 11:46:40"
+        },
+        {
+            "role": "assistant",
+            "content": "Let's get to few scenario based questions. The first university boasts an Academic Reputation score of 78, a Faculty Student Ratio of 92, Employment Outcomes at 88, and a Sustainability rating of 68. Is the university doing well? Give a reason.  ",
+            "timestamp": "2024-05-23 11:46:40"
+        },
+        {
+            "role": "user",
+            "content": "skjejif",
+            "timestamp": "2024-05-23 11:46:41"
+        },
+        {
+            "role": "assistant",
+            "content": "The second university's Academic Reputation comprises half of the first university's reputation combined with half of its Faculty-Student Ratio score. The rest of the scores are the same as the first university. Is the second university considered better than the first university? If your answer is yes, explain what factors contribute to your conclusion. ",
+            "timestamp": "2024-05-23 11:46:41"
+        },
+        {
+            "role": "user",
+            "content": "skdjf",
+            "timestamp": "2024-05-23 11:46:42"
+        },
+        {
+            "role": "assistant",
+            "content": "The third university's Academic Reputation matches the second, while its Faculty Student Ratio and Employment Outcomes mirror the first. Its Sustainability, comprising half of the first university's score and half of its Faculty Student Ratio, also factors in. Do you believe the third university surpasses the other two? And What's your take on whether the third university stands out? ",
+            "timestamp": "2024-05-23 11:46:42"
+        },
+        {
+            "role": "user",
+            "content": "slkdfi",
+            "timestamp": "2024-05-23 11:46:42"
+        },
+        {
+            "role": "assistant",
+            "content": "The fourth university's Faculty Student Ratio matches the third, while its Academic Reputation mirrors the second. The employment Outcomes score comprises half of the first university's and its half of Faculty Student Ratio. The sustainability score mirrors the third university. Does the fourth university surpass the other three? And what's your take on whether the fourth university stands out? ",
+            "timestamp": "2024-05-23 11:46:42"
+        },
+        {
+            "role": "user",
+            "content": "skldfi",
+            "timestamp": "2024-05-23 11:46:44"
+        },
+        {
+            "role": "assistant",
+            "content": "Having just completed your graduate degree, you have four offers of teaching jobs in hand. Your choices are: - <br> a) College A: midwest, low prestige school, moderate salary, very good chance of tenure <br> b) College B: west coast, low prestige school, high salary, good chance of tenure. <br> c) College C: east coast, very, prestigious school, high salary, fair chance of tenure <br>d) College D: west coast, prestigious school, moderate salary, good chance of tenure.",
+            "timestamp": "2024-05-23 11:46:44"
+        },
+        {
+            "role": "user",
+            "content": "a",
+            "timestamp": "2024-05-23 11:46:45"
+        },
+        {
+            "role": "assistant",
+            "content": "Click on Finish & Proceed",
+            "timestamp": "2024-05-23 11:46:45"
+        }
+    ],
+    "chat2": [
+        {
+            "role": "user",
+            "content": "asdfkjlk",
+            "timestamp": "2024-05-23 11:46:53"
+        },
+        {
+            "role": "assistant",
+            "content": "Hello. I am Emma, the career counseling chatbot. I am here to help you choose the right career path. As part of this process, I will ask you a few questions to understand your personality and strengths. In addition, you will be presented with a few scenario-based questions. The whole process will help in recommending the right career path. Shall we start?",
+            "timestamp": "2024-05-23 11:46:53"
+        },
+        {
+            "role": "user",
+            "content": "asdlkfj",
+            "timestamp": "2024-05-23 11:46:54"
+        },
+        {
+            "role": "assistant",
+            "content": "How do you handle stress or pressure? ",
+            "timestamp": "2024-05-23 11:46:54"
+        },
+        {
+            "role": "user",
+            "content": "lskdjf",
+            "timestamp": "2024-05-23 11:46:55"
+        },
+        {
+            "role": "assistant",
+            "content": "What do you consider to be your greatest strengths? ",
+            "timestamp": "2024-05-23 11:46:55"
+        },
+        {
+            "role": "user",
+            "content": "slkjdflkj",
+            "timestamp": "2024-05-23 11:46:56"
+        },
+        {
+            "role": "assistant",
+            "content": "Let's get to few scenario based questions. The first university boasts an Academic Reputation score of 78, a Faculty Student Ratio of 92, Employment Outcomes at 88, and a Sustainability rating of 68. Is the university doing well? Give a reason.  ",
+            "timestamp": "2024-05-23 11:46:56"
+        },
+        {
+            "role": "user",
+            "content": "sldkfji",
+            "timestamp": "2024-05-23 11:46:57"
+        },
+        {
+            "role": "assistant",
+            "content": "The second university's Academic Reputation comprises half of the first university's reputation combined with half of its Faculty-Student Ratio score. The rest of the scores are the same as the first university. Is the second university considered better than the first university? If your answer is yes, explain what factors contribute to your conclusion. ",
+            "timestamp": "2024-05-23 11:46:57"
+        },
+        {
+            "role": "user",
+            "content": "lksjdflj",
+            "timestamp": "2024-05-23 11:46:58"
+        },
+        {
+            "role": "assistant",
+            "content": "The third university's Academic Reputation matches the second, while its Faculty Student Ratio and Employment Outcomes mirror the first. Its Sustainability, comprising half of the first university's score and half of its Faculty Student Ratio, also factors in. Do you believe the third university surpasses the other two? And What's your take on whether the third university stands out? ",
+            "timestamp": "2024-05-23 11:46:58"
+        },
+        {
+            "role": "user",
+            "content": "slkdjfi",
+            "timestamp": "2024-05-23 11:46:59"
+        },
+        {
+            "role": "assistant",
+            "content": "The fourth university's Faculty Student Ratio matches the third, while its Academic Reputation mirrors the second. The employment Outcomes score comprises half of the first university's and its half of Faculty Student Ratio. The sustainability score mirrors the third university. Does the fourth university surpass the other three? And what's your take on whether the fourth university stands out? ",
+            "timestamp": "2024-05-23 11:46:59"
+        },
+        {
+            "role": "user",
+            "content": "klsfdlk",
+            "timestamp": "2024-05-23 11:47:00"
+        },
+        {
+            "role": "assistant",
+            "content": "Having just completed your graduate degree, you have four offers of teaching jobs in hand. Your choices are: - <br> a) College A: midwest, low prestige school, moderate salary, very good chance of tenure <br> b) College B: west coast, low prestige school, high salary, good chance of tenure. <br> c) College C: east coast, very, prestigious school, high salary, fair chance of tenure <br>d) College D: west coast, prestigious school, moderate salary, good chance of tenure.",
+            "timestamp": "2024-05-23 11:47:00"
+        },
+        {
+            "role": "user",
+            "content": "b",
+            "timestamp": "2024-05-23 11:47:02"
+        },
+        {
+            "role": "assistant",
+            "content": "Click on Finish & Proceed",
+            "timestamp": "2024-05-23 11:47:02"
+        }
+    ],
+    "chat3": [
+        {
+            "role": "user",
+            "content": "lksjdf",
+            "timestamp": "2024-05-23 11:47:10"
+        },
+        {
+            "role": "assistant",
+            "content": "Hello. I am Emma, the career counseling chatbot. I am here to help you choose the right career path. As part of this process, I will ask you a few questions to understand your personality and strengths. In addition, you will be presented with a few scenario-based questions. The whole process will help in recommending the right career path. Shall we start?",
+            "timestamp": "2024-05-23 11:47:10"
+        },
+        {
+            "role": "user",
+            "content": "lksjdf",
+            "timestamp": "2024-05-23 11:47:10"
+        },
+        {
+            "role": "assistant",
+            "content": "How do you handle stress or pressure? ",
+            "timestamp": "2024-05-23 11:47:10"
+        },
+        {
+            "role": "user",
+            "content": "skkjdfi",
+            "timestamp": "2024-05-23 11:47:11"
+        },
+        {
+            "role": "assistant",
+            "content": "What do you consider to be your greatest strengths? ",
+            "timestamp": "2024-05-23 11:47:11"
+        },
+        {
+            "role": "user",
+            "content": "klsdfj",
+            "timestamp": "2024-05-23 11:47:12"
+        },
+        {
+            "role": "assistant",
+            "content": "Let's get to few scenario based questions. The first university boasts an Academic Reputation score of 78, a Faculty Student Ratio of 92, Employment Outcomes at 88, and a Sustainability rating of 68. Is the university doing well? Give a reason.  ",
+            "timestamp": "2024-05-23 11:47:12"
+        },
+        {
+            "role": "user",
+            "content": "kljsdfi",
+            "timestamp": "2024-05-23 11:47:13"
+        },
+        {
+            "role": "assistant",
+            "content": "The second university's Academic Reputation comprises half of the first university's reputation combined with half of its Faculty-Student Ratio score. The rest of the scores are the same as the first university. Is the second university considered better than the first university? If your answer is yes, explain what factors contribute to your conclusion. ",
+            "timestamp": "2024-05-23 11:47:13"
+        },
+        {
+            "role": "user",
+            "content": "lkjsdfj",
+            "timestamp": "2024-05-23 11:47:14"
+        },
+        {
+            "role": "assistant",
+            "content": "The third university's Academic Reputation matches the second, while its Faculty Student Ratio and Employment Outcomes mirror the first. Its Sustainability, comprising half of the first university's score and half of its Faculty Student Ratio, also factors in. Do you believe the third university surpasses the other two? And What's your take on whether the third university stands out? ",
+            "timestamp": "2024-05-23 11:47:14"
+        },
+        {
+            "role": "user",
+            "content": "sldfkj",
+            "timestamp": "2024-05-23 11:47:15"
+        },
+        {
+            "role": "assistant",
+            "content": "The fourth university's Faculty Student Ratio matches the third, while its Academic Reputation mirrors the second. The employment Outcomes score comprises half of the first university's and its half of Faculty Student Ratio. The sustainability score mirrors the third university. Does the fourth university surpass the other three? And what's your take on whether the fourth university stands out? ",
+            "timestamp": "2024-05-23 11:47:15"
+        },
+        {
+            "role": "user",
+            "content": "sdlfkj",
+            "timestamp": "2024-05-23 11:47:17"
+        },
+        {
+            "role": "assistant",
+            "content": "Having just completed your graduate degree, you have four offers of teaching jobs in hand. Your choices are: - <br> a) College A: midwest, low prestige school, moderate salary, very good chance of tenure <br> b) College B: west coast, low prestige school, high salary, good chance of tenure. <br> c) College C: east coast, very, prestigious school, high salary, fair chance of tenure <br>d) College D: west coast, prestigious school, moderate salary, good chance of tenure.",
+            "timestamp": "2024-05-23 11:47:17"
+        },
+        {
+            "role": "user",
+            "content": "a",
+            "timestamp": "2024-05-23 11:47:18"
+        },
+        {
+            "role": "assistant",
+            "content": "Click on Finish & Proceed",
+            "timestamp": "2024-05-23 11:47:18"
+        }
+    ],
+    "ntlx1": {
+        "Mental Demand": 1,
+        "Physical Demand": 1,
+        "Temporal Demand": 1,
+        "Performance": 1,
+        "Effort": 1,
+        "Frustration": 1
+    },
+    "ntlx2": {
+        "Mental Demand": 1,
+        "Physical Demand": 1,
+        "Temporal Demand": 1,
+        "Performance": 1,
+        "Effort": 1,
+        "Frustration": 1
+    },
+    "ntlx3": {
+        "Mental Demand": 1,
+        "Physical Demand": 1,
+        "Temporal Demand": 1,
+        "Performance": 1,
+        "Effort": 1,
+        "Frustration": 1
+    },
+    "ac1": false,
+    "ac2": false,
+    "ac3": false,
+    "serious": "7"
+}
