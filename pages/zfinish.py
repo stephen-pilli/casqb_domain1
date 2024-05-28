@@ -4,7 +4,7 @@ import io
 from pymongo.mongo_client import MongoClient
 from markdownify import markdownify as md
 from streamlit_extras.switch_page_button import switch_page
-
+import webbrowser
 
 st.set_page_config(page_title="Survey", page_icon=":speech_balloon:")
 
@@ -19,7 +19,7 @@ st.write("Please contact me, Vivek Nallur (vivek.nallur@ucd.ie), \
 
 st.header("How serious are you while interacting with the chatbot?")
 st.session_state.serious = st.radio(
-    "Please select your level of seriousness:",
+    "To what extent did you seriously consider the scenarios presented in the chatbot?",
     ('1 - Not serious at all', '2', '3', '4', '5', '6', '7 - Very serious')
 )
 
@@ -52,7 +52,7 @@ def updateRecord(key, value, newValue):
 
 
 if st.button('Submit'):
-    st.success("Click on the button below to download your responses. Please share the file if requested. Thank you for completing the survey! You may close this window.")
+    st.warning('Please wait while your submission is in progress.')
     data = getData()
     data = data.strip()
     try:
@@ -69,8 +69,19 @@ if st.button('Submit'):
             file_name=f'{st.session_state.prolific_pid}.json',
             mime='application/json'
         )
+        
+                # Function to open a link   
+        def open_link(url):
+            webbrowser.open_new_tab(url)
+
+        open_link('https://app.prolific.com/submissions/complete?cc=C291VV82')
+
+        st.success("Click on the button below to download your responses. Please share the file if requested. Thank you for completing the survey! You may close this window.")
+
+
     except:
-        st.warning("You submission has failed. Please download the file and share it with the above mentioned email-id.")
+        st.warning("You submission has failed. Please download the file and share it with the above mentioned email-id. In addition, use the code C291VV82 to complete your submission.")
+        
         # Convert the dictionary to a JSON string
         # json_data = json.dumps(data, indent=4)
 

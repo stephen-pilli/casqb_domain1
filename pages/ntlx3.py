@@ -6,7 +6,7 @@ from streamlit_extras.switch_page_button import switch_page
 # Set up the title and description
 st.title("NASA-TLX Workload Assessment")
 st.write("""
-### Please rate your experience on the following dimensions from 1 (Very Low) to 7 (Very High).
+### Please rate your recent interaction with the chatbot on a scale from 1 (Very Low) to 7 (Very High):
 """)
 
 st.session_state.mental_demand = ""
