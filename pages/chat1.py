@@ -21,12 +21,14 @@ if st.button('Start Chat', key='strtcht'):
 
 
 def finishAndProceed():
+    st.session_state.disable_chat_input = False
     st.session_state.chat1 = st.session_state['messages']
     st.session_state.messages = []  # Clear the chat history
     st.session_state.chat_pilli = False  # Reset the chat state
     st.session_state.messages_counter = 0
     st.session_state.utterances = ""
     st.session_state.chatFinish = 0
+    
 
 def get_current_timestamp():
     now = datetime.now()
@@ -40,7 +42,7 @@ if st.session_state.chat_pilli:
         with st.chat_message(message["role"]): 
             st.markdown(md(message["content"]))
 
-    if prompt := st.chat_input("Say, Hi!!"):
+    if prompt := st.chat_input(disabled= st.session_state.disable_chat_input):
         st.session_state.messages.append({"role": "user", "content": prompt, "timestamp": get_current_timestamp()})
         with st.chat_message("user"):
             st.markdown(prompt)
@@ -51,8 +53,12 @@ if st.session_state.chat_pilli:
             st.session_state.messages.append({"role": "assistant", "content": st.session_state.utterances[st.session_state.messages_counter], "timestamp": get_current_timestamp()})
             with st.chat_message("assistant"):
                     st.markdown(md(st.session_state.utterances[st.session_state.messages_counter]))
+            
 
         st.session_state.messages_counter += 1
+
+        if st.session_state.messages_counter == len(st.session_state.utterances):
+            st.session_state.disable_chat_input = True
 
         if st.session_state.messages_counter == len(st.session_state.utterances)+1:
             #create button to go to the next page

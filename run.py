@@ -23,6 +23,10 @@ if "chatFinish" not in st.session_state:
     st.session_state['chatFinish'] = -1
 if "chatStatus" not in st.session_state:
     st.session_state['chatStatus'] = 0
+if "disable_chat_input" not in st.session_state:
+    st.session_state['disable_chat_input'] = False
+
+
 
 if "mental_demand" not in st.session_state:
     st.session_state['mental_demand'] = ""
@@ -39,6 +43,18 @@ if "effort" not in st.session_state:
 if "frustration" not in st.session_state:
     st.session_state['frustration'] = ""
 
+if "choice_problem" not in st.session_state:
+    st.session_state['choice_problem'] = ""
+if "match_c" not in st.session_state:
+    st.session_state['match_c'] = ""
+if "match_d" not in st.session_state:
+    st.session_state['match_d'] = ""
+if "extracted_text_c" not in st.session_state:
+    st.session_state['extracted_text_c'] = ""
+if "extracted_text_d" not in st.session_state:
+    st.session_state['extracted_text_d'] = ""
+if "alternatives_list" not in st.session_state:
+    st.session_state['alternatives_list'] = ""
 
 ##Seting up database
 if "uri" not in st.session_state:
